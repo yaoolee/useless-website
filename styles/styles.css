@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #1a0c3c, #3f0f68);
+  color: #fff;
+  overflow-y: scroll;
+  height: 800vh; 
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 24vh; 
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #6ec9f0;
+}
+
+p {
+  color: #dcd3e0;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.clone-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: linear-gradient(45deg, #ff4dd2, #cc00ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.clone-btn:hover {
+  transform: scale(1.1);
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 40px 20px;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.final-message {
+  margin: 600vh 0 200px;
+  text-align: center;
+}
+
+.card {
+  background-color: #240742;
+  border: 2px solid #7f41ff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: #d8ccf0;
+  font-size: 1.2rem;
+  max-width: 400px;
+}
+#reset-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background: #3f31ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+#reset-btn:hover {
+  background: #5c4dff;
+}
+.fake-section {
+  height: 200vh;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #999;
+}

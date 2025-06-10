@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Can You Reach the End?</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <h1>CAN YOU REACH THE END?</h1>
+      <p>Scroll down to reach the final message.<br>But each click adds more buttons to block your path!</p>
+      <button class="clone-btn">Click Me</button>
+    </section>
+
+    <div class="button-container"></div>
+   <section class="fake-section">You're not there yet…</section>
+   <section class="fake-section">Still scrolling?</section>
+   <section class="final-message">
+      <div class="card">
+        <p>🏆 <strong>YOU DID IT!</strong><br>
+        Most people give up,<br>
+        Most people give up halfway through. That says a lot about your curiosity… and your patience.</p>
+        <button id="reset-btn">🔄 Reset Challenge</button>
+      </div>
+    </section>
+  </main>
+  <script src="./script/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
